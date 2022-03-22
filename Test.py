@@ -48,6 +48,3 @@ class TestWeb:
 
         order_confirmation = browser.find_element_by_xpath(TestLocators.loc_order_confirmation)
         order_confirmation.click()
-
-    def test_positive_case_2(self):
-        print('privet')
